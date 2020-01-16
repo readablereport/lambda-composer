@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "npx np"
+    "release": "NODE_ENV=production npx np"
   },
   "keywords": [
     "functional",
