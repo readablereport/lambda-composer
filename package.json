@@ -1,0 +1,19 @@
+{
+  "name": "lambda-composer",
+  "version": "1.0.0",
+  "description": "Treat AWS lambdas like composable functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "npx np"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache License 2.0",
+  "dependencies": {
+    "aws-sdk": "^2.604.0"
+  },
+  "devDependencies": {
+    "np": "^5.2.1"
+  }
+}
