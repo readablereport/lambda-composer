@@ -5,15 +5,25 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "npx np --no-tests"
+    "release": "npx np"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "functional",
+    "composable",
+    "aws",
+    "lambda"
+  ],
+  "author": "Nathan Smith",
+  "access": "public",
   "license": "Apache License 2.0",
   "dependencies": {
     "aws-sdk": "^2.604.0"
   },
   "devDependencies": {
     "np": "^5.2.1"
+  },
+  "np": {
+    "yarn": false,
+    "tests": false
   }
 }
