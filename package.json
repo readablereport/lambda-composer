@@ -1,6 +1,6 @@
 {
   "name": "lambda-composer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Treat AWS lambdas like composable functions",
   "main": "index.js",
   "scripts": {
