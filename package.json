@@ -24,6 +24,7 @@
   },
   "np": {
     "yarn": false,
-    "tests": false
+    "tests": false,
+    "cleanup": true
   }
 }
