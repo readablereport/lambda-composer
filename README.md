@@ -6,6 +6,15 @@ Based on the blog article "[The Dynamic Composer (an AWS serverless pattern)](ht
 
 ## Example Usage
 
+_Sample Event Data_
+
+```json
+{
+	"url": "https://www.cnn.com/some-article-to-process/index.html",
+	"_compose": ["comparator", "nlp-analyzer", "tagger", "persistor"]
+}
+```
+
 ```js
 const composer = require("labmda-composer");
 
